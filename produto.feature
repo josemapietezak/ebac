@@ -10,7 +10,15 @@
             Dado que eu acesse o portal da EBAC-SHOP
 
             Cenário: Seleção do produto
-            Quando eu selecionar a cor "xxxx" tamanho "yyy" e quantidade "xx"
+            Quando eu selecionar a cor "branco" tamanho "P" e quantidade "01"
+            Então deve exibir a mensagem "Produto adicionado ao carrinho!"
+
+            Cenário: Seleção do produto
+            Quando eu selecionar a cor "branco" tamanho "M" e quantidade "01"
+            Então deve exibir a mensagem "Produto adicionado ao carrinho!"
+
+            Cenário: Seleção do produto
+            Quando eu selecionar a cor "branco" tamanho "G" e quantidade "01"
             Então deve exibir a mensagem "Produto adicionado ao carrinho!"
 
             Cenário: Limite máximo de produtos
@@ -27,7 +35,7 @@
             Então deve exibir a <mensagem> de sucesso
 
             Exemplos:
-            | Produto | Quantidade | mensagem                         |
-            | "xxx"   | "y"        | "Produto adicionado ao carrinho! |
-            | "yyy"   | "x"        | "Produto adicionado ao carrinho! |
-            | "zzz"   | "z"        | "Produto adicionado ao carrinho! |
+            | Produto    | Cor      | Tamanho | Quantidade | mensagem                         |
+            | "Camiseta" | "Branco" | "P"     | "01"       | "Produto adicionado ao carrinho! |
+            | "Camiseta" | "Branco" | "M"     | "01"       | "Produto adicionado ao carrinho! |
+            | "Camiseta" | "Branco" | "G"     | "01"       | "Produto adicionado ao carrinho! |

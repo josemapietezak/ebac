@@ -26,8 +26,8 @@
             Então deve exibir a <mensagem> de sucesso
 
             Exemplos:
-            | Usuario           | senha      | mensagem                               |
-            | "xxx@ebac.com.br" | "senha123" | "Olá XXX! Vamos finalizar seu pedido!" |
-            | "yyy@ebac.com.br" | "senha123" | "Olá YYY! Vamos finalizar seu pedido!" |
-            | "zzz@ebac.com.br" | "senha123" | "Olá ZZZ! Vamos finalizar seu pedido!" |
+            | Usuario             | senha      | mensagem                                 |
+            | "joao@ebac.com.br"  | "senha123" | "Olá Joao! Vamos finalizar seu pedido!"  |
+            | "maria@ebac.com.br" | "senha123" | "Olá Maria! Vamos finalizar seu pedido!" |
+            | "carla@ebac.com.br" | "senha123" | "Olá Carla! Vamos finalizar seu pedido!" |
 
